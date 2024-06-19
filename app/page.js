@@ -1,7 +1,6 @@
 
 import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
-import WelcomeMessage from "./components/WelcomeMessage";
 import CountdownTimer from "./components/CountdownTimer";
 import Program from "./components/ProgramDate";
 import About from "./components/About";
@@ -20,7 +19,6 @@ export default function Home() {
       <Speakers />
       <Pricing />
 
-      {/* <WelcomeMessage /> */}
   
    </main>
   );
