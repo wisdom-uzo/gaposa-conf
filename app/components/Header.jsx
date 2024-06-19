@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md py-4 px-4 sm:px-8 md:px-12 lg:px-16 flex justify-between items-center">
       <Link href="/" className="text-2xl font-bold text-gray-800 hover:text-gray-600 transition-colors duration-300">
-          ICONST '24
+          ICONST &apos;24
         
       </Link>
 
