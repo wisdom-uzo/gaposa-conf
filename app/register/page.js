@@ -41,7 +41,7 @@ const RegistrationPage = () => {
         <div className="bg-white shadow-2xl rounded-lg overflow-hidden">
           <div className="px-4 py-5 sm:p-6">
             <h2 className="text-center text-3xl font-extrabold text-gray-900">
-              Register for ICONST `&apos;`24
+              Register for ICONST  &apos;24
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
               Join us in shaping a sustainable future
@@ -56,7 +56,7 @@ const RegistrationPage = () => {
                   <div className="ml-3">
                     <h3 className="text-sm font-medium text-green-800">Registration Successful</h3>
                     <div className="mt-2 text-sm text-green-700">
-                      <p>Thank you for registering for ICONST  `&apos;`24. We look forward to seeing you at the conference!</p>
+                      <p>Thank you for registering for ICONST  &apos;24. We look forward to seeing you at the conference!</p>
                     </div>
                   </div>
                 </div>

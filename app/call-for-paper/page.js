@@ -50,7 +50,7 @@ const CallForPapersPage = () => {
             <div className="bg-white shadow-2xl rounded-lg overflow-hidden">
               <div className="px-4 py-5 sm:p-6">
                 <h2 className="text-center text-3xl font-extrabold text-gray-900">
-                  Call for Papers - ICONST  `&apos;`24
+                  Call for Papers - ICONST  &apos;24
                 </h2>
                 <p className="mt-2 text-center text-sm text-gray-600">
                   Submit your abstract for the International Conference on Science and Technology 2024

@@ -48,7 +48,7 @@ const KeyDates = () => {
         <div className="lg:text-center mb-12">
           <h2 className="text-base text-green-300 font-semibold tracking-wide uppercase">Important Dates</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
-            Key Dates for ICONST  `&apos;`24
+            Key Dates for ICONST  &apos;24
           </p>
           <p className="mt-4 max-w-2xl text-xl text-green-100 lg:mx-auto">
             Mark your calendar with these crucial deadlines and events
@@ -109,7 +109,7 @@ const KeyDates = () => {
               </div>
             </div>
             <p className="mt-5 text-lg text-center text-green-100">
-              Until ICONST  `&apos;`24 kicks off!
+              Until ICONST  &apos;24 kicks off!
             </p>
           </div>
         </div>

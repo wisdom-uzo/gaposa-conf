@@ -8,7 +8,7 @@ const AboutConference = () => {
         <div className="lg:text-center">
           <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">About the Conference</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            ICONST `&apos;`24: Shaping a Sustainable Future
+            ICONST &apos;24: Shaping a Sustainable Future
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             Join us for the International Conference on Science and Technology, focusing on green economy and sustainable development.
@@ -61,7 +61,7 @@ const AboutConference = () => {
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Theme</p>
               </dt>
               <dd className="mt-2 ml-16 text-base text-gray-500">
-              `&quot;`Green Economy: A Multidimensional Approach to Sustainable Development`&quot;` - Exploring innovative solutions for a sustainable future.
+              &quot;Green Economy: A Multidimensional Approach to Sustainable Development&quot; - Exploring innovative solutions for a sustainable future.
               </dd>
             </div>
           </dl>
@@ -69,10 +69,10 @@ const AboutConference = () => {
 
         <div className="mt-10 prose prose-green mx-auto lg:max-w-none">
           <p>
-            The International Conference on Science and Technology (ICONST  `&apos;`24) is a premier forum for the presentation of new advances and research results in the fields of Science and Technology. The conference will bring together leading academic scientists, researchers and scholars in the domain of interest from around the world.
+            The International Conference on Science and Technology (ICONST  &apos;24) is a premier forum for the presentation of new advances and research results in the fields of Science and Technology. The conference will bring together leading academic scientists, researchers and scholars in the domain of interest from around the world.
           </p>
           <p>
-            Our focus on the Green Economy reflects the urgent need for sustainable solutions in today`&apos;`s world. We`&apos;`ll explore topics ranging from renewable energy and sustainable agriculture to green transportation and eco-friendly technological innovations.
+            Our focus on the Green Economy reflects the urgent need for sustainable solutions in today&apos;s world. We&apos;ll explore topics ranging from renewable energy and sustainable agriculture to green transportation and eco-friendly technological innovations.
           </p>
           <p>
             Join us for engaging keynote speeches, paper presentations, poster sessions, and workshops. Network with peers, share your research, and contribute to shaping a sustainable future for our planet.

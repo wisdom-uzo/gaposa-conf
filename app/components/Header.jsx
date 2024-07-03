@@ -37,12 +37,12 @@ const Header = () => {
           {/* Logo */}
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
-              <span className="sr-only">ICONST  `&apos;`24</span>
+              <span className="sr-only">ICONST  &apos;24</span>
               <div className="h-10 w-auto sm:h-12 flex items-center">
                 <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                <span className="ml-2 text-xl font-bold">ICONST  `&apos;`24</span>
+                <span className="ml-2 text-xl font-bold">ICONST  &apos;24</span>
               </div>
             </Link>
           </div>

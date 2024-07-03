@@ -39,7 +39,7 @@ const FeaturedSpeakers = () => {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-10 justify-center md:grid-cols-2 lg:grid-cols-4">
           {speakers.map((speaker, index) => (
             <div key={index} className="flex flex-col items-center">
               <div className="flex-shrink-0">
