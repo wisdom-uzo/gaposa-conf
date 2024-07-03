@@ -31,7 +31,7 @@ const ContactPage = () => {
             Contact Us
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Have questions about ICONST '24? We're here to help!
+            Have questions about ICONST  `&apos;`24? We`&apos;`re here to help!
           </p>
         </div>
 
@@ -41,7 +41,7 @@ const ContactPage = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Send us a message</h2>
               {isSubmitted ? (
                 <div className="text-green-600 font-medium">
-                  Thank you for your message. We'll get back to you soon!
+                  Thank you for your message. We`&apos;`ll get back to you soon!
                 </div>
               ) : (
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
@@ -101,7 +101,7 @@ const ContactPage = () => {
                   <Mail className="flex-shrink-0 h-6 w-6 text-green-600" aria-hidden="true" />
                   <div className="ml-3 text-base text-gray-500">
                     <p>gaposastconf@gmail.com</p>
-                    <p className="mt-1">We'll respond within 24 hours</p>
+                    <p className="mt-1">We`&apos;`ll respond within 24 hours</p>
                   </div>
                 </div>
                 <div className="flex items-start">

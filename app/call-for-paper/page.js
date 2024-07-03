@@ -50,7 +50,7 @@ const CallForPapersPage = () => {
             <div className="bg-white shadow-2xl rounded-lg overflow-hidden">
               <div className="px-4 py-5 sm:p-6">
                 <h2 className="text-center text-3xl font-extrabold text-gray-900">
-                  Call for Papers - ICONST '24
+                  Call for Papers - ICONST  `&apos;`24
                 </h2>
                 <p className="mt-2 text-center text-sm text-gray-600">
                   Submit your abstract for the International Conference on Science and Technology 2024
@@ -96,7 +96,7 @@ const CallForPapersPage = () => {
 
                       <div>
                         <label htmlFor="authorName" className="block text-sm font-medium text-gray-700">
-                          Corresponding Author's Name *
+                          Corresponding Author`&apos;`s Name *
                         </label>
                         <div className="mt-1 relative rounded-md shadow-sm">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -117,7 +117,7 @@ const CallForPapersPage = () => {
 
                       <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                          Corresponding Author's Email *
+                          Corresponding Author`&apos;`s Email *
                         </label>
                         <div className="mt-1 relative rounded-md shadow-sm">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -144,7 +144,7 @@ const CallForPapersPage = () => {
 
                       <div>
                         <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                          Corresponding Author's Phone Number *
+                          Corresponding Author`&apos;`s Phone Number *
                         </label>
                         <div className="mt-1 relative rounded-md shadow-sm">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -165,7 +165,7 @@ const CallForPapersPage = () => {
 
                       <div>
                         <label htmlFor="institution" className="block text-sm font-medium text-gray-700">
-                          Corresponding Author's Institution *
+                          Corresponding Author`&apos;`s Institution *
                         </label>
                         <div className="mt-1 relative rounded-md shadow-sm">
                           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">

@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-green-700 pt-8">
           <p className="text-base text-green-400 xl:text-center">
-            &copy; {currentYear} ICONST '24. All rights reserved.
+            &copy; {currentYear} ICONST`&apos;`24. All rights reserved.
           </p>
         </div>
       </div>
