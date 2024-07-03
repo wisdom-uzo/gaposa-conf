@@ -4,11 +4,11 @@ import { Twitter, Linkedin, Globe } from 'lucide-react';
 const FeaturedSpeakers = () => {
   const speakers = [
     {
-      name: "Prof. Kolawole Adebayo",
+      name: "Prof. Kolawole ADEBAYO",
       role: "Lead Paper Presenter",
       institution: "Federal University of Agriculture Abeokuta, Ogun State, Nigeria",
       bio: "Deputy Vice Chancellor (Development) with expertise in sustainable agriculture and rural development.",
-      image: "/api/placeholder/400/400",
+      image: "/Kolawole.jpg",
       twitter: "#",
       linkedin: "#",
       website: "#"
@@ -23,26 +23,7 @@ const FeaturedSpeakers = () => {
       linkedin: "#",
       website: "#"
     },
-    {
-      name: "Dr. Jane Smith",
-      role: "Guest Speaker",
-      institution: "Green Tech Institute, USA",
-      bio: "Renowned expert in renewable energy and sustainable urban planning.",
-      image: "/api/placeholder/400/400",
-      twitter: "#",
-      linkedin: "#",
-      website: "#"
-    },
-    {
-      name: "Prof. Akinwande Johnson",
-      role: "Panel Moderator",
-      institution: "University of Lagos, Nigeria",
-      bio: "Distinguished professor of Environmental Sciences with a focus on climate change mitigation strategies.",
-      image: "/api/placeholder/400/400",
-      twitter: "#",
-      linkedin: "#",
-      website: "#"
-    }
+   
   ];
 
   return (
