@@ -1,31 +1,99 @@
-const About = () => {
-    return (
-      <div className="bg-green-100 py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-green-800 text-center">About ICONST &apos;24</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="md:col-span-1">
-              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1913&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Conference" className="rounded-lg shadow-lg" />
+import React from 'react';
+import { Calendar, MapPin, Users, Leaf } from 'lucide-react';
+
+const AboutConference = () => {
+  return (
+    <section className="py-16 bg-green-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">About the Conference</h2>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            ICONST '24: Shaping a Sustainable Future
+          </p>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            Join us for the International Conference on Science and Technology, focusing on green economy and sustainable development.
+          </p>
+        </div>
+
+        <div className="mt-10">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                  <Calendar className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Date and Duration</p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                August 19-22, 2024. Four days of insightful presentations, workshops, and networking opportunities.
+              </dd>
             </div>
-            <div className="md:col-span-1">
-              <p className="text-lg text-green-700 mb-4">
-                The 2nd International Conference of Science and Technology (ICONST &apos;24) focuses on the theme &ldquo;Green Economy: A Multidimensional Approach to Sustainable Development.&ldquo;
-              </p>
-              <p className="text-lg text-green-700 mb-4">
-                The conference aims to bring together researchers, practitioners, policymakers, and industry experts to discuss and explore innovative approaches to addressing environmental challenges and promoting sustainable development through green economy initiatives.
-              </p>
-              <p className="text-lg text-green-700 mb-4">
-                Organized by the School of Science and Technology, Gateway (ICT) Polytechnic, Saapade, and sponsored by EWWAY ICT Polytechnic, ICONST 24 offers a platform for knowledge exchange, collaboration, and networking in the fields of science, technology, and sustainable development.
-              </p>
-              <p className="text-lg text-green-700 mb-4">
-                Join us in advancing the cause of sustainability and shaping a greener, more sustainable future for all.
-              </p>
+
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                  <MapPin className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Venue</p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                Gateway (ICT) Polytechnic Saapade, Ogun State, Nigeria. A hub of technological innovation in West Africa.
+              </dd>
             </div>
+
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                  <Users className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Participants</p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                Bringing together researchers, industry experts, policymakers, and students from around the globe to share insights on sustainable development.
+              </dd>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                  <Leaf className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Theme</p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                "Green Economy: A Multidimensional Approach to Sustainable Development" - Exploring innovative solutions for a sustainable future.
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <div className="mt-10 prose prose-green mx-auto lg:max-w-none">
+          <p>
+            The International Conference on Science and Technology (ICONST '24) is a premier forum for the presentation of new advances and research results in the fields of Science and Technology. The conference will bring together leading academic scientists, researchers and scholars in the domain of interest from around the world.
+          </p>
+          <p>
+            Our focus on the Green Economy reflects the urgent need for sustainable solutions in today's world. We'll explore topics ranging from renewable energy and sustainable agriculture to green transportation and eco-friendly technological innovations.
+          </p>
+          <p>
+            Join us for engaging keynote speeches, paper presentations, poster sessions, and workshops. Network with peers, share your research, and contribute to shaping a sustainable future for our planet.
+          </p>
+        </div>
+
+        <div className="mt-8 flex justify-center">
+          <div className="inline-flex rounded-md shadow">
+            <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700">
+              Learn More About Sub-Themes
+            </a>
+          </div>
+          <div className="ml-3 inline-flex">
+            <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200">
+              Submit Your Abstract
+            </a>
           </div>
         </div>
       </div>
-    );
-  };
-  
-  export default About;
-  
+    </section>
+  );
+};
+
+export default AboutConference;
