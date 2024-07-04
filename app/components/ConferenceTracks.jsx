@@ -97,7 +97,7 @@ const ConferenceTracks = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="#"
+            href="/call-for-paper"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-green-800 bg-green-100 hover:bg-green-200 transition duration-150 ease-in-out"
           >
             Submit Your Abstract

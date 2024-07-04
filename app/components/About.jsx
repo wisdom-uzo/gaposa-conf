@@ -86,7 +86,7 @@ const AboutConference = () => {
             </a>
           </div>
           <div className="ml-3 inline-flex">
-            <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200">
+            <a href="/call-for-paper" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200">
               Submit Your Abstract
             </a>
           </div>

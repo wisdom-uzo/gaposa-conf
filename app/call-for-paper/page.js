@@ -249,7 +249,7 @@ const CallForPapersPage = () => {
                       </div>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <label className="block text-sm font-medium text-gray-700">
                         Download Abstract Template
                       </label>
@@ -262,7 +262,7 @@ const CallForPapersPage = () => {
                           Download Template
                         </a>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* Abstract File Upload */}
                     <div>

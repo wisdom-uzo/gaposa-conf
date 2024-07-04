@@ -1,5 +1,6 @@
 import React from 'react';
 import { Check, AlertCircle } from 'lucide-react';
+import Link from 'next/link';
 
 const RegistrationInformation = () => {
   const registrationOptions = [
@@ -76,9 +77,9 @@ const RegistrationInformation = () => {
                 </ul>
               </div>
               <div className="px-4 py-4 sm:px-6">
-                <button className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                <Link href='/register' className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
                   Register Now
-                </button>
+                </Link>
               </div>
             </div>
           ))}
