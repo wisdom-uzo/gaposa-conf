@@ -75,7 +75,7 @@ const MainNavigation = ({ currentPath = '/' }) => {
       </div>
       {!isExpanded && (
         <div className="absolute top-0 left-full ml-2 bg-white p-2 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <span className="text-indigo-900 font-semibold">ICONST '24</span>
+          <span className="text-indigo-900 font-semibold">ICONST &apos;24</span>
         </div>
       )}
     </nav>

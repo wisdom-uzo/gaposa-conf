@@ -126,7 +126,7 @@ const RegistrationPage = () => {
             <div className="ml-3">
               <h3 className="text-sm font-medium text-green-800">Registration Successful</h3>
               <div className="mt-2 text-sm text-green-700">
-                <p>Thank you for registering for ICONST '24. We look forward to seeing you at the conference!</p>
+                <p>Thank you for registering for ICONST &apos;24. We look forward to seeing you at the conference!</p>
               </div>
             </div>
           </div>
