@@ -111,7 +111,7 @@ const RegistrationPage = () => {
   <div className="bg-white shadow-2xl rounded-lg overflow-hidden">
     <div className="px-4 py-5 sm:p-6">
       <h2 className="text-center text-3xl font-extrabold text-gray-900">
-        Register for ICONST '24
+        Register for ICONST &apos;24
       </h2>
       <p className="mt-2 text-center text-sm text-gray-600">
         Join us in shaping a sustainable future

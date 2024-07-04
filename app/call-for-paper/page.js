@@ -141,7 +141,7 @@ const CallForPapersPage = () => {
           <div className="bg-white shadow-2xl rounded-lg overflow-hidden">
             <div className="px-4 py-5 sm:p-6">
               <h2 className="text-center text-3xl font-extrabold text-gray-900">
-                Call for Papers - ICONST '24
+                Call for Papers - ICONST &apos;24
               </h2>
               <p className="mt-2 text-center text-sm text-gray-600">
                 Submit your abstract for the International Conference on Science and Technology 2024
@@ -203,7 +203,7 @@ const CallForPapersPage = () => {
                         value={formData.presentationType}
                         onChange={handleInputChange}
                         className="mt-1 block w-full p-3 border-2 pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
-                      >
+                      > 
                         <option value="oral">Oral Presentation</option>
                         <option value="poster">Poster Presentation</option>
                         <option value="virtual">Virtual Presentation</option>

@@ -31,7 +31,7 @@ const MainNavigation = ({ currentPath = '/' }) => {
         <div className="flex items-center justify-between mb-6">
           {isExpanded && (
             <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-              ICONST '24
+              ICONST &apos;24
             </span>
           )}
           <button
