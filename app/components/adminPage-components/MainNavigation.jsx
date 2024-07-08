@@ -13,7 +13,7 @@ const MainNavigation = ({ currentPath = '/' }) => {
   const navItems = [
     { name: 'Dashboard', icon: Home, path: '/admin' },
     { name: 'Papers', icon: FileText, path: '/admin/paper' },
-    { name: 'Registrations', icon: Users, path: '/admin/registrations' },
+    { name: 'Registrations', icon: Users, path: '/admin/registration' },
     { name: 'Schedule', icon: Calendar, path: '/admin/schedule' },
     
     { name: 'Settings', icon: Settings, path: '/admin/settings' },
