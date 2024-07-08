@@ -167,6 +167,53 @@ const RegistrationPage = () => {
             ))}
           </div>
 
+
+          <div>
+                  <label htmlFor="registrationType" className="block text-sm font-medium text-gray-700">
+                    Registration Type
+                  </label>
+                  <div className="mt-1 relative rounded-md shadow-sm">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <DollarSign className="h-5 w-5 text-gray-400" aria-hidden="true" />
+                    </div>
+                    <select
+                      id="registrationType"
+                      name="registrationType"
+                      className="block w-full pl-10 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
+                      required
+                      value={formData.registrationType}
+                      onChange={handleInputChange}
+                      
+                    >
+                      <option value="">Select registration type</option>
+                      <option value="physical">Physical Participation (₦20,000)</option>
+                      <option value="virtual">Virtual Participation (₦15,000)</option>
+                      <option value="student">Student Registration (₦5,000)</option>
+                      <option value="international">International Participation ($50)</option>
+                    </select>
+                  </div>
+                 
+                </div>
+
+
+          
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
+                  <div className="flex">
+                    <div className="flex-shrink-0">
+                      <CheckCircle className="h-5 w-5 text-blue-400" aria-hidden="true" />
+                    </div>
+                    <div className="ml-3">
+                      <h3 className="text-sm font-medium text-blue-800">Payment Information</h3>
+                      <div className="mt-2 text-sm text-blue-700">
+                        <p>Please make payment to the following account:</p>
+                        <p className="mt-1">Bank: Zenith Bank Plc</p>
+                        <p>Account Number: 1226078857</p>
+                        <p>Account Name: GAPOSA S&T Conference and Journal</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
           <div>
                     <label className="block text-sm font-medium text-gray-700">
                       Upload Payment Receipt

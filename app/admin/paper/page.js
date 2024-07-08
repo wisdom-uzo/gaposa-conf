@@ -1,14 +1,11 @@
 import React from 'react'
 import AdminLayout from '../../components/adminPage-components/AdminLayout'
-import AdminRegistrationPage from '../../components/adminPage-components/AdminRegistrationPage'
+import AdminPaperPage from '../../components/adminPage-components/AdminPaperPage'
 
 const page = () => {
-
-  
   return (
     <AdminLayout>
-
-      <AdminRegistrationPage />
+        <AdminPaperPage />
     </AdminLayout>
   )
 }

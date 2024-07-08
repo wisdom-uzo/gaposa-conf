@@ -12,11 +12,10 @@ const MainNavigation = ({ currentPath = '/' }) => {
 
   const navItems = [
     { name: 'Dashboard', icon: Home, path: '/admin' },
-    { name: 'Papers', icon: FileText, path: '/admin/papers' },
+    { name: 'Papers', icon: FileText, path: '/admin/paper' },
     { name: 'Registrations', icon: Users, path: '/admin/registrations' },
     { name: 'Schedule', icon: Calendar, path: '/admin/schedule' },
-    { name: 'Speakers', icon: Mic, path: '/admin/speakers' },
-    { name: 'Sponsors', icon: Briefcase, path: '/admin/sponsors' },
+    
     { name: 'Settings', icon: Settings, path: '/admin/settings' },
   ];
 

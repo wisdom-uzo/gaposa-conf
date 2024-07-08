@@ -2,10 +2,16 @@
 
 import React, { useState } from 'react';
 import { Search, Bell, Mail, ChevronDown, Menu } from 'lucide-react';
+import { signOut } from 'next-auth/react';
 
 const TopBar = () => {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
+
+
+  const signOutButton = () => {
+     signOut();
+  };
 
   return (
     <div className="bg-indigo-800 text-white shadow-md px-4 py-2">
@@ -74,12 +80,19 @@ const TopBar = () => {
                 >
                   Settings
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="block px-4 py-2 text-sm text-indigo-100 hover:bg-indigo-600"
                 >
                   Sign out
-                </a>
+                </a> */}
+
+
+        
+          <button onClick={signOutButton} className="lock px-4 py-2 text-sm text-indigo-100 hover:bg-indigo-600">
+            Sign Out
+          </button>
+       
               </div>
             )}
           </div>

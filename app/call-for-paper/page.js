@@ -16,7 +16,7 @@ const CallForPapersPage = () => {
     email: '',
     phone: '',
     institution: '',
-    presentationType: 'oral',
+    presentationType: 'oral',  
     researchArea: '',
     keywords: '',
     abstractFile: null,
@@ -204,8 +204,7 @@ const CallForPapersPage = () => {
                         onChange={handleInputChange}
                         className="mt-1 block w-full p-3 border-2 pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm rounded-md"
                       > 
-                        <option value="oral">Oral Presentation</option>
-                        <option value="poster">Poster Presentation</option>
+                        <option value="Physical">Physical Presentation</option>
                         <option value="virtual">Virtual Presentation</option>
                       </select>
                     </div>
