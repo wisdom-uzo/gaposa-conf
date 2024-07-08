@@ -64,7 +64,7 @@ export const {
       return session;
     },
   },
-  secret: process.env.AUTH_SECRET // Add this line
+  secret: 'process.env.AUTH_SECRETyour_long_random_string_here' // Add this line
 
 })
 
