@@ -18,7 +18,7 @@ const RegistrationPage = () => {
     country: '',
     state: '',
     registrationType: '',
-    paymentReceipt: null
+   // paymentReceipt: null
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState(null);
@@ -214,58 +214,6 @@ const RegistrationPage = () => {
                   </div>
                 </div>
 
-          <div>
-                    <label className="block text-sm font-medium text-gray-700">
-                      Upload Payment Receipt
-                    </label>
-                    <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
-                      <div className="space-y-1 text-center">
-                        {isUploading ? (
-                          <div className="flex flex-col items-center">
-                            <Loader className="h-12 w-12 text-green-500 animate-spin" />
-                            <p className="mt-2 text-sm text-gray-500">Uploading... {progress}%</p>
-                          </div>
-                        ) : selectedFile ? (
-                          <div className="flex flex-col items-center">
-                            <FileText className="h-12 w-12 text-green-500" />
-                            <p className="mt-2 text-sm text-gray-500">{selectedFile.name}</p>
-                            <button
-                              onClick={removeFile}
-                              className="mt-2 inline-flex items-center px-2 py-1 border border-transparent text-xs font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                            >
-                              <XCircle className="h-4 w-4 mr-1" /> Remove
-                            </button>
-                          </div>
-                        ) : (
-                          <>
-                            <Upload className="mx-auto h-12 w-12 text-gray-400" />
-                            <div className="flex text-sm text-gray-600">
-                              <label
-                                htmlFor="file-upload"
-                                className="relative cursor-pointer bg-white rounded-md font-medium text-green-600 hover:text-green-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-green-500"
-                              >
-                                <span>Upload a file</span>
-                                <input
-                                  id="file-upload"
-                                  name="file-upload"
-                                  type="file"
-                                  className="sr-only"
-                                  onChange={handleFileUpload}
-                                  ref={fileInputRef}
-                                  required
-                                />
-                              </label>
-                              <p className="pl-1">or drag and drop</p>
-                            </div>
-                            <p className="text-xs text-gray-500">
-                              PNG, JPG, up to 3MB
-                            </p>
-                          </>
-                        )}
-                      </div>
-                    </div>
-                    {fileUploaded && <p className="mt-2 text-sm text-green-600">File uploaded successfully</p>}
-                  </div>
 
                   <div>
                     <button
